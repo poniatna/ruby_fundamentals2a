@@ -11,10 +11,11 @@ end
 
 puts " #{grocery_list[1].capitalize} is second on your list.\n "	
 puts " \nMaybe it would be easier for you to see it in alphabetical order?\n "
-grocery_list.sort.each{|word| puts word}
+	grocery_list.sort.each{|word| puts word}
 
-
-
-
+puts " \nThere is chicken shortage on the market! Chicken needs to be removed from the list!\n "
+	grocery_list.delete("chicken")
+puts " \n Looks like you need to make 'vegie soup' insted.\n "
+	grocery_list.each {|x| puts " * #{x}" }
 
 
