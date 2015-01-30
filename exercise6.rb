@@ -1,6 +1,6 @@
 require 'pry'
-puts " \nchicken_soup\n "
-	grocery_list = ["carrots", "celery root", "parsley root", "onions", "garlic", "all spice", "safron", "bay leaf", "pepper", "chicken"]
+puts " \nChicken_soup\n "
+	grocery_list = ["carrots", "celery root", "parsley root", "onions", "garlic", "all spice", "saffron", "bay leaf", "pepper", "chicken"]
 	grocery_list << "salt"
 	grocery_list.each {|x| puts " * #{x}" }
 puts "You have #{grocery_list.length} items on your list.\n " 
@@ -15,7 +15,7 @@ puts " \nMaybe it would be easier for you to see it in alphabetical order?\n "
 
 puts " \nThere is chicken shortage on the market! Chicken needs to be removed from the list!\n "
 	grocery_list.delete("chicken")
-puts " \n Looks like you need to make 'vegie soup' insted.\n "
+puts " \n Looks like you need to make 'vegie soup' instead.\n "
 	grocery_list.each {|x| puts " * #{x}" }
 
 

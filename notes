@@ -1,0 +1,14 @@
+def calculated(x)
+	 	 (x - 32.00) * 0.5556
+	 end
+puts "Score is #{calculated(5)}"
+
+my_hash = {
+  :key1 => "First value!",
+  :key2 => "Second value!",
+  :key3 => "Third value!"
+}
+
+my_hash.each do |key, value|
+  puts "The key is #{key} and the value is #{value}"
+end
