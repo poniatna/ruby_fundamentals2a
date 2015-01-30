@@ -9,6 +9,8 @@ unless grocery_list.include?("bananas")
 	 puts "Luckily, there is no bananas on your list\nwho puts bananas in 'chicken soup' anyway?"
 end
 
+puts " #{grocery_list[1].capitalize} is second on your list."	
+
 
 
 
